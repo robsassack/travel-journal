@@ -13,6 +13,7 @@ header {
   justify-content: center;
   align-items: center;
   gap: 7px;
+  margin-bottom: 20px;
 }
 
 .header--icon {
@@ -23,4 +24,66 @@ header {
   font-size: 0.938em;
   font-weight: 500;
   letter-spacing: -0.075em;
+}
+
+.cards-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card {
+  display: flex;
+  gap: 30px;
+  color: #2B283A;
+  max-width: 700px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.card:not(:last-child) {
+  border-bottom: 2px solid #F5F5F5;
+}
+
+.card--image {
+  height: 250px;
+  width: auto;
+  border-radius: 7px;
+}
+
+.card--text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.card--loc-line {
+  display: flex;
+  margin-bottom: 7px;
+}
+
+.card--icon {
+  color: #F55A5A;
+  padding-right: 4px;
+}
+
+.card--loc {
+  letter-spacing: 0.17em;
+  padding-right: 12px;
+}
+
+.card--link {
+  color: #918E9B;
+}
+
+.card--title {
+  font-size: 2.2em;
+  margin-bottom: 14px;
+  font-weight: 700;
+}
+
+.card--date {
+  font-weight: 700;
+  font-size: 0.9em;
+  margin-bottom: 10px;
 }
