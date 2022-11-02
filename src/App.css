@@ -30,6 +30,7 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: 0 40px;
 }
 
 .card {
@@ -43,6 +44,12 @@ header {
 
 .card:not(:last-child) {
   border-bottom: 2px solid #F5F5F5;
+}
+
+@media only screen and (max-width: 600px) {
+  .card--image {
+    height: 100px !important;
+  }
 }
 
 .card--image {
